@@ -92,5 +92,5 @@ React默认会转义所有字符串。
 伪元素本质上是创建了一个有内容的虚拟容器  
 CSS3中伪类和伪元素的语法不同:伪类一个冒号，伪元素的由两个冒开头  
 可以同时使用多个伪类，而只能同时使用一个伪元素  
-[CSS3伪类和伪元素的特性和区别](https://www.cnblogs.com/ihardcoder/p/5294927.html)
+[CSS3伪类和伪元素的特性和区别](https://www.cnblogs.com/ihardcoder/p/5294927.html)  
 9.redux是什么  

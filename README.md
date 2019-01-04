@@ -70,7 +70,7 @@ repaint（重绘）:改变某个元素的背景色、文字颜色、边框颜色
 (3)有些情况下，比如修改了元素的样式，浏览器并不会立刻reflow 或 repaint 一次，而是会把这样的操作积攒一批，然后做一次 reflow，这又叫异步 reflow 或增量异步 reflow。但是在有些情况下，比如resize 窗口，改变了页面默认的字体等。对于这些操作，浏览器会马上进行 reflow。  
 附博客:  
 [浏览器渲染原理及流程](http://www.cnblogs.com/slly/p/6640761.html)
-[前端工程师需要明白的「浏览器渲染」](https://www.jianshu.com/p/e305ace24ddf)
+[前端工程师需要明白的「浏览器渲染」](https://www.jianshu.com/p/e305ace24ddf)  
 6.前端跨域问题  
 7.网页安全(常见的攻击以及防范)  
 XSS(跨站脚本攻击)  
@@ -85,7 +85,7 @@ CSRF(跨站请求伪造)
 验证码、Referer Check 检查请求是否来自合法的源(可被伪造)。
 token存放在session或者cookie中
 前端框架防范措施:  
-React默认会转义所有字符串。
+React默认会转义所有字符串。  
 [前端安全(XSS、CSRF防御)](https://www.cnblogs.com/443855539-wind/p/6055816.html)  
 8.伪元素与伪类区别  
 伪类本质上是为了弥补常规CSS选择器的不足，以便获取到更多信息  

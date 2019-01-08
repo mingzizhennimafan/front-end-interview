@@ -72,6 +72,9 @@ repaint（重绘）:改变某个元素的背景色、文字颜色、边框颜色
 [浏览器渲染原理及流程](http://www.cnblogs.com/slly/p/6640761.html)
 [前端工程师需要明白的「浏览器渲染」](https://www.jianshu.com/p/e305ace24ddf)  
 6.前端跨域问题  
+同域:域名,端口,协议相同.  
+跨域:浏览器对于javascript的同源策略的限制,例如a.cn下面的js不能调用b.cn中的js,对象或数据(因为a.cn和b.cn是不同域),所以跨域就出现了.  
+[关于跨域,以及跨域的几种方式](http://www.cnblogs.com/chenshishuo/p/4919224.html)  
 7.网页安全(常见的攻击以及防范)  
 XSS(跨站脚本攻击)  
 特点:注入恶意的HTML/JavaScript代码到用户浏览的网页上，从而达到Cookie资料窃取、会话劫持、钓鱼欺骗等攻击。  
